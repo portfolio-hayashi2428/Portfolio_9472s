@@ -159,7 +159,9 @@ Works
   opacity: 0.7;
 }
 
-/* リンク先ページ */
+/*-------------------------------------------
+Works_リンク先
+-------------------------------------------*/
 .works-img-mainvisual {
   width: 80%;
   display: block;
@@ -265,8 +267,8 @@ Skill
 
 .skill-wrap {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 横に4列 */
-  grid-template-rows: repeat(2, 1fr); /* 縦に2行 */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 8% 2%;
   width: 70%;
   margin: 0 auto;
@@ -378,7 +380,9 @@ about
   right: 1.4rem;
 }
 
-/* リンク先ページ */
+/*-------------------------------------------
+about_リンク先
+-------------------------------------------*/
 .internal-page-h2 {
   padding-top: 15%;
 }
@@ -602,7 +606,9 @@ footer {
     margin-bottom: 15%;
   }
 
-  /* ページ内リンク */
+  /*-------------------------------------------
+900px_works_リンク先
+-------------------------------------------*/
 
   .works-content {
     width: 80%;
@@ -635,7 +641,9 @@ footer {
     display: none;
   }
 
-  /* リンク先ページ */
+  /*-------------------------------------------
+900px_about_リンク先
+-------------------------------------------*/
 
   .internal-page-h2 {
     padding-top: 23%;
@@ -762,10 +770,9 @@ footer {
   }
 
   /*-------------------------------------------
-450px_about
+450px_about_リンク先
 -------------------------------------------*/
 
-  /* リンク先ページ */
   .source-wrap {
     display: block;
   }
