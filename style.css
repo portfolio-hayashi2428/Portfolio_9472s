@@ -86,8 +86,8 @@ h1 {
   width: 28%;
   position: absolute;
   z-index: 10;
-  left: 15%;
-  top: 34%;
+  left: 13%;
+  top: 30%;
 }
 
 .mainvisual-sp-img {
@@ -568,8 +568,8 @@ footer {
 
   .mainvisual-text-img {
     width: 40%;
-    left: 13%;
-    top: 30%;
+    left: 12%;
+    top: 25%;
   }
 
   .mainvisual-sp-img {
@@ -693,7 +693,7 @@ footer {
 -------------------------------------------*/
 
   .mainvisual-text-img {
-    top: 35%;
+    top: 31%;
   }
 
   .mainvisual-sp-img {
@@ -741,6 +741,10 @@ footer {
 
   .mainvisual-sp-img {
     margin-top: 120px;
+  }
+
+  .mainvisual-text-img {
+    top: 33%;
   }
 
   /*-------------------------------------------
