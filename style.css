@@ -280,7 +280,7 @@ Skill
   box-shadow: 1px 2px 3px #d9d9d9;
   border-radius: 15px;
   text-align: center;
-  padding: 10% 6% 10% 6%;
+  padding: 10% 7% 10% 7%;
 }
 
 .skill-icon-img {
@@ -293,6 +293,7 @@ Skill
   line-height: 1.3;
   letter-spacing: 0.08em;
   font-size: 14px;
+  font-feature-settings: "palt";
 }
 
 .skill-text p:nth-child(1) {
@@ -302,6 +303,10 @@ Skill
   font-size: 15px;
   border-bottom: 1px solid #c4bdb8;
   min-height: 30px;
+}
+
+.skill-text p:nth-child(2) {
+  text-align: justify;
 }
 
 /*-------------------------------------------
@@ -759,7 +764,6 @@ footer {
   }
 
   .works-content p {
-    margin-bottom: 5%;
     line-height: 1.8;
     letter-spacing: 0.08em;
     font-size: 15px;
@@ -767,6 +771,10 @@ footer {
 
   .works-img-visual-wrap {
     width: 80%;
+  }
+
+  .works-content-url-sp {
+    margin-top: 3%;
   }
 
   /*-------------------------------------------
