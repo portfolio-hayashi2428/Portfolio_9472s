@@ -9,10 +9,10 @@ html.loading-delay {
 }
 
 body {
-  color: #725f4e;
+  color: #717171;
   font-size: 16px;
   margin: 0 auto;
-  background-color: #f6f6f6;
+  background-color: #f7f6f6;
   font-family: "fot-cezanne-pron", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .header-menu {
-  background-color: #d5e5e9;
+  background-color: #ffffff;
   height: 75px;
   width: 100%;
   position: fixed;
@@ -79,7 +79,7 @@ h1 {
   z-index: 1;
   object-fit: cover;
   border-radius: 15px;
-  box-shadow: 3px 3px 3px #e4e4e4;
+  box-shadow: 8px 8px 18px #dcdbdb;
 }
 
 .mainvisual-text-img {
@@ -137,7 +137,7 @@ Works
   width: 100%;
   border-radius: 15px;
   margin-bottom: 5%;
-  box-shadow: 3px 3px 3px #e4e4e4;
+  box-shadow: 5px 5px 8px #dcdbdb;
   border-radius: 20px;
 }
 
@@ -277,7 +277,7 @@ Skill
 
 .skill-text-wrap {
   background-color: #fff;
-  box-shadow: 1px 2px 3px #d9d9d9;
+  box-shadow: 4px 4px 7px #dcdbdb;
   border-radius: 15px;
   text-align: center;
   padding: 10% 7% 10% 7%;
@@ -341,7 +341,7 @@ about
 }
 
 .link-btn a {
-  background: #725f4e;
+  background: #717171;
   border-radius: 3px;
   position: relative;
   display: flex;
@@ -355,6 +355,7 @@ about
   font-weight: 500;
   letter-spacing: 0.3em;
   border-radius: 25px;
+  box-shadow: 4px 4px 5px #dcdbdb;
 }
 
 .wlink-btn a:after {
@@ -376,7 +377,7 @@ about
 }
 
 .link-btn a:hover {
-  background: #957c66;
+  background: #999999;
   color: #fff;
   transition: all 0.5s ease 0s;
 }
@@ -484,7 +485,7 @@ about_リンク先
   width: 100%;
   border-radius: 15px;
   margin-bottom: 5%;
-  box-shadow: 3px 3px 3px #d9d9d9;
+  box-shadow: 5px 5px 7px #cfcfcf;
 }
 
 .source-text {
@@ -533,13 +534,14 @@ contact
 フッター
 -------------------------------------------*/
 footer {
-  background-color: #d5e5e9;
+  background-color: #8d8d8d;
 }
 
 .footer-copy {
   text-align: center;
   letter-spacing: 0.3em;
   padding: 10% 0%;
+  color: #fff;
 }
 
 .active {
