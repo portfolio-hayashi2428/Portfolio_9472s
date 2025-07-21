@@ -124,21 +124,21 @@ Works
 
 .Works-list-wrap {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
-  gap: 6% 3.5%;
-  width: 70%;
+  gap: 5% 3%;
+  max-width: 1140px;
   margin: 0 auto;
   margin-bottom: 20%;
+  padding: 0 20px;
 }
 
 .Works-img-box {
   overflow: hidden;
   width: 100%;
-  border-radius: 15px;
   margin-bottom: 5%;
-  box-shadow: 5px 5px 8px #dcdbdb;
-  border-radius: 20px;
+  box-shadow: 3px 3px 3px #dcdbdb;
+  border-radius: 5px;
 }
 
 .works-title {
@@ -151,7 +151,7 @@ Works
 }
 
 .Works-list-wrap img {
-  border-radius: 20px;
+  border-radius: 5px;
   width: 100%;
   object-fit: cover;
   transition-duration: 0.7s;
@@ -177,7 +177,7 @@ Works_リンク先
   margin: 0 auto;
   border-radius: 25px;
   margin-bottom: 5%;
-  box-shadow: 6px 6px 15px #dcdbdb;
+  box-shadow: 3px 3px 3px #dcdbdb;
 }
 
 .works h3 {
@@ -196,6 +196,10 @@ Works_リンク先
 
 .works h3 span {
   font-size: 16px;
+}
+
+.qr {
+  width: 85px;
 }
 
 h4 {
@@ -289,7 +293,7 @@ Skill
 .skill-text-wrap {
   background-color: #fff;
   box-shadow: 4px 4px 7px #dcdbdb;
-  border-radius: 15px;
+  border-radius: 5px;
   text-align: center;
   padding: 10% 7% 10% 7%;
 }
@@ -345,6 +349,7 @@ about
 
 .about-text {
   margin-top: 2%;
+  margin-bottom: 60px;
 }
 
 .link-btn {
@@ -494,14 +499,13 @@ about_リンク先
 
 .source img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
   margin-bottom: 5%;
-  box-shadow: 5px 5px 7px #cfcfcf;
+  box-shadow: 3px 3px 3px #cfcfcf;
 }
 
 .source-text {
   line-height: 1.7;
-  margin-left: 5%;
   text-align: left;
 }
 
@@ -676,7 +680,7 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 4% 5%;
-    width: 80%;
+    width: 90%;
     margin-top: 8%;
   }
 
@@ -723,8 +727,12 @@ footer {
   }
 
   .strengths-text-wrap {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
+  }
+
+  .strengths-lead {
+    min-height: 0px;
   }
 }
 
