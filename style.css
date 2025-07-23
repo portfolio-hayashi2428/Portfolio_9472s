@@ -107,7 +107,7 @@ h1 {
 .introduction p {
   width: 720px;
   margin: 0 auto;
-  line-height: 2;
+  line-height: 1.8;
   letter-spacing: 0.17em;
   margin-bottom: 8%;
 }
@@ -129,7 +129,7 @@ Works
   gap: 5% 3%;
   max-width: 1140px;
   margin: 0 auto;
-  margin-bottom: 20%;
+  margin-bottom: 30%;
   padding: 0 20px;
 }
 
@@ -139,6 +139,7 @@ Works
   margin-bottom: 5%;
   box-shadow: 3px 3px 3px #dcdbdb;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .works-title {
@@ -172,10 +173,10 @@ Works
 Works_リンク先
 -------------------------------------------*/
 .works-img-mainvisual {
-  width: 80%;
+  width: 90%;
   display: block;
   margin: 0 auto;
-  border-radius: 25px;
+  border-radius: 5px;
   margin-bottom: 5%;
   box-shadow: 3px 3px 3px #dcdbdb;
 }
@@ -252,7 +253,7 @@ h4 {
   gap: 5%;
   width: 70%;
   margin: 0 auto;
-  margin-bottom: 10%;
+  margin-bottom: 12%;
 }
 
 .works-img-visual-wrap img:nth-child(1) {
@@ -266,7 +267,7 @@ h4 {
 }
 
 .more-list {
-  background-color: #efeded;
+  background-color: #fff;
   padding: 10% 0%;
 }
 
@@ -287,7 +288,7 @@ Skill
   gap: 8% 2%;
   width: 70%;
   margin: 0 auto;
-  margin-bottom: 13%;
+  margin-bottom: 16%;
 }
 
 .skill-text-wrap {
@@ -349,7 +350,8 @@ about
 
 .about-text {
   margin-top: 2%;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
+  line-height: 1.8;
 }
 
 .link-btn {
@@ -422,6 +424,7 @@ about_リンク先
   font-style: normal;
   font-size: 25px;
   margin-bottom: 1.5%;
+  margin-top: 50px;
 }
 
 .strengths-wrap {
@@ -529,7 +532,7 @@ contact
 }
 
 .contact {
-  margin-bottom: 8%;
+  margin-bottom: 12%;
   margin-top: 10%;
 }
 
@@ -603,7 +606,8 @@ footer {
 
   .introduction p {
     width: 90%;
-    margin-bottom: 10%;
+    margin-bottom: 14%;
+    line-height: 1.6;
   }
 
   /*-------------------------------------------
@@ -617,7 +621,6 @@ footer {
   .Works-list-wrap {
     display: block;
     margin-bottom: 15%;
-    width: 90%;
   }
 
   .link-btn {
@@ -625,7 +628,7 @@ footer {
   }
 
   .link-btn {
-    margin-bottom: 15%;
+    margin-bottom: 20%;
   }
 
   /*-------------------------------------------
@@ -633,7 +636,7 @@ footer {
 -------------------------------------------*/
 
   .works-content {
-    width: 80%;
+    width: 90%;
   }
 
   /*-------------------------------------------
@@ -654,6 +657,10 @@ footer {
 900px_about
 -------------------------------------------*/
 
+  .about-text {
+    line-height: 1.7;
+  }
+
   .about-text-wrap {
     width: 90%;
     margin-bottom: 7%;
@@ -668,7 +675,7 @@ footer {
 -------------------------------------------*/
 
   .internal-page-h2 {
-    padding-top: 23%;
+    padding-top: 30%;
   }
 
   .source-wrap {
@@ -689,7 +696,7 @@ footer {
 -------------------------------------------*/
 
   .contact-text {
-    width: 85%;
+    width: 90%;
   }
 }
 
@@ -775,7 +782,7 @@ footer {
   .works h3 {
     line-height: 0.8;
     padding-bottom: 3%;
-    font-size: 27px;
+    font-size: 22px;
   }
 
   h4 {
@@ -795,7 +802,7 @@ footer {
   }
 
   .works-img-visual-wrap {
-    width: 80%;
+    width: 90%;
   }
 
   .works-content-url-sp {
