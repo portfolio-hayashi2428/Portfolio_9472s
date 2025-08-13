@@ -75,7 +75,8 @@ h1 {
 
 .mainvisual-pc-img {
   margin-top: 140px;
-  width: 85%;
+  max-width: 1100px;
+  width: 90%;
   z-index: 1;
   object-fit: cover;
   border-radius: 15px;
@@ -120,6 +121,9 @@ Works
   opacity: 0;
   transform: translateY(100px);
   transition: opacity 2s, transform 2s;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .Works-list-wrap {
@@ -127,10 +131,13 @@ Works
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, auto);
   gap: 5% 3%;
-  max-width: 1140px;
   margin: 0 auto;
   margin-bottom: 30%;
-  padding: 0 20px;
+  max-width: 1100px;
+}
+
+.Works-list-banner {
+  margin-bottom: 15%;
 }
 
 .Works-img-box {
@@ -169,10 +176,95 @@ Works
   opacity: 0.7;
 }
 
+/* タブ部分 */
+
+.tab_container {
+  padding-bottom: 1em;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.tab_item {
+  width: 200px;
+  padding: 15px 0;
+  background-color: #b8b8b8;
+  text-align: center;
+  color: #3f3f3f;
+  display: block;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  border-radius: 10px 10px 0px 0px;
+  letter-spacing: 0.1em;
+}
+
+.tab_item:hover {
+  opacity: 0.75;
+}
+
+.tab_item_banner {
+  margin-left: 5px;
+}
+
+input[name="tab_item"] {
+  display: none;
+}
+
+.tab_content {
+  display: none;
+  padding: 2em 0 0 0;
+  clear: both;
+  overflow: hidden;
+}
+
+.tab_content_description img {
+  width: 100%;
+}
+
+.Works-list-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, auto);
+  gap: 5%;
+}
+
+#tab1:checked ~ #tab1_content,
+#tab2:checked ~ #tab2_content {
+  display: block;
+}
+.tab_container input:checked + .tab_item {
+  background-color: #515151;
+  color: #fff;
+  border-radius: 10px 10px 0px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .Works-list-wrap {
+    display: block;
+  }
+
+  .tab_item {
+    width: 100px;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .tab_content {
+    padding: 1em 0 0 0;
+  }
+
+  .tab_item {
+    margin-top: 7%;
+  }
+}
+
 /*-------------------------------------------
 Works_リンク先
 -------------------------------------------*/
 .works-img-mainvisual {
+  max-width: 1100px;
   width: 90%;
   display: block;
   margin: 0 auto;
@@ -227,7 +319,8 @@ h4 {
 }
 
 .works-content {
-  width: 70%;
+  max-width: 1100px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -251,7 +344,8 @@ h4 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 5%;
-  width: 70%;
+  max-width: 1000px;
+  width: 90%;
   margin: 0 auto;
   margin-bottom: 12%;
 }
@@ -271,6 +365,11 @@ h4 {
   padding: 10% 0%;
 }
 
+.more-list-wrap {
+  margin-bottom: 10%;
+  width: 90%;
+}
+
 /*-------------------------------------------
 Skill
 -------------------------------------------*/
@@ -279,6 +378,9 @@ Skill
   opacity: 0;
   transform: translateY(100px);
   transition: opacity 2s, transform 2s;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .skill-wrap {
@@ -286,7 +388,6 @@ Skill
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 8% 2%;
-  width: 70%;
   margin: 0 auto;
   margin-bottom: 16%;
 }
@@ -613,6 +714,9 @@ footer {
   /*-------------------------------------------
 900px_works
 -------------------------------------------*/
+  .works {
+    width: 100%;
+  }
 
   h2 {
     font-size: 47px;
@@ -646,7 +750,6 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 2% 3%;
-    width: 90%;
   }
 
   .Works-list-wrap li {
@@ -725,6 +828,14 @@ footer {
   }
 
   /*-------------------------------------------
+700px_works
+-------------------------------------------*/
+
+  .works {
+    width: 100%;
+  }
+
+  /*-------------------------------------------
 700px_about
 -------------------------------------------*/
 
@@ -778,6 +889,9 @@ footer {
   /*-------------------------------------------
 450px_Works
 -------------------------------------------*/
+  .works {
+    width: 100%;
+  }
 
   .works h3 {
     line-height: 0.8;
@@ -799,10 +913,6 @@ footer {
     line-height: 1.8;
     letter-spacing: 0.08em;
     font-size: 15px;
-  }
-
-  .works-img-visual-wrap {
-    width: 90%;
   }
 
   .works-content-url-sp {
