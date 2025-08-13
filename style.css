@@ -291,6 +291,24 @@ Works_リンク先
   font-size: 16px;
 }
 
+.works-content h3 {
+  font-size: 16px;
+}
+
+.works-content h3 {
+  font-size: 30px;
+  font-family: Hiragino Kaku Gothic Pro;
+  margin: 0 auto;
+  font-family: "fot-cezanne-pron", sans-serif;
+  font-weight: 500;
+  border-bottom: 1px solid #725f4e;
+  padding-bottom: 1.5%;
+  margin: 3% 0% 5% 0%;
+  font-feature-settings: "palt";
+  letter-spacing: 0.1em;
+  line-height: 1;
+}
+
 .qr {
   width: 85px;
 }
@@ -884,6 +902,12 @@ footer {
 
   .works h3 {
     line-height: 0.8;
+    padding-bottom: 3%;
+    font-size: 22px;
+  }
+
+  .works-content h3 {
+    line-height: 1.2;
     padding-bottom: 3%;
     font-size: 22px;
   }
