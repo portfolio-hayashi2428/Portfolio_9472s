@@ -102,7 +102,9 @@ h1 {
 .introduction {
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 2s, transform 2s;
+  transition:
+    opacity 2s,
+    transform 2s;
 }
 
 .introduction p {
@@ -120,7 +122,9 @@ Works
 .works {
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 2s, transform 2s;
+  transition:
+    opacity 2s,
+    transform 2s;
   max-width: 1100px;
   margin: 0 auto;
   width: 100%;
@@ -395,7 +399,9 @@ Skill
 .skill {
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 2s, transform 2s;
+  transition:
+    opacity 2s,
+    transform 2s;
   max-width: 1100px;
   margin: 0 auto;
   width: 90%;
@@ -444,6 +450,10 @@ Skill
   text-align: justify;
 }
 
+.icon_figma {
+  border-radius: 25%;
+}
+
 /*-------------------------------------------
 about
 -------------------------------------------*/
@@ -451,7 +461,9 @@ about
 .about {
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 2s, transform 2s;
+  transition:
+    opacity 2s,
+    transform 2s;
 }
 
 .about-text-wrap span {
@@ -534,7 +546,9 @@ about_リンク先
   text-align: center;
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 2s, transform 2s;
+  transition:
+    opacity 2s,
+    transform 2s;
 }
 
 .strengths h3 {
@@ -588,7 +602,9 @@ about_リンク先
   text-align: center;
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 2s, transform 2s;
+  transition:
+    opacity 2s,
+    transform 2s;
   max-width: 1400px;
   margin: 0 auto;
 }
@@ -643,7 +659,9 @@ contact
 .contact {
   opacity: 0;
   transform: translateY(100px);
-  transition: opacity 2s, transform 2s;
+  transition:
+    opacity 2s,
+    transform 2s;
 }
 
 .contact h2 {
