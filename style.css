@@ -191,7 +191,7 @@ Works
 .tab_item {
   width: 200px;
   padding: 15px 0;
-  background-color: #b8b8b8;
+  background-color: #cde1e4;
   text-align: center;
   color: #3f3f3f;
   display: block;
@@ -238,8 +238,8 @@ input[name="tab_item"] {
   display: block;
 }
 .tab_container input:checked + .tab_item {
-  background-color: #515151;
-  color: #fff;
+  background-color: #d0d0d0;
+  color: #3f3f3f;
   border-radius: 10px 10px 0px 0px;
 }
 
