@@ -128,7 +128,6 @@ Works
   max-width: 1100px;
   margin: 0 auto;
   width: 100%;
-  padding-bottom: 370px;
 }
 
 .Works-list-wrap {
@@ -253,7 +252,7 @@ input[name="tab_item"] {
 .Works-list-wrap {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* grid-template-rows: repeat(5, auto); */
+  grid-template-rows: repeat(5, auto);
   gap: 5%;
   max-width: 1050px;
 }
@@ -267,6 +266,18 @@ input[name="tab_item"] {
   background-color: #a6ced1;
   color: #fff;
   border-radius: 15px 15px 0px 0px;
+}
+
+#tab1_content {
+  padding-bottom: 370px;
+}
+
+#tab2_content {
+  padding-bottom: 130px;
+}
+
+#tab3_content {
+  padding-bottom: 200px;
 }
 
 @media screen and (max-width: 900px) {
@@ -778,7 +789,6 @@ footer {
 -------------------------------------------*/
   .works {
     width: 90%;
-    padding-bottom: 10%;
   }
 
   h2 {
@@ -796,6 +806,18 @@ footer {
 
   .link-btn {
     margin-bottom: 20%;
+  }
+
+  #tab1_content {
+    padding-bottom: 0px;
+  }
+
+  #tab2_content {
+    padding-bottom: 0px;
+  }
+
+  #tab3_content {
+    padding-bottom: 0px;
   }
 
   /*-------------------------------------------
