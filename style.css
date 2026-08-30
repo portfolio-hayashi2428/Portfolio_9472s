@@ -128,6 +128,7 @@ Works
   max-width: 1100px;
   margin: 0 auto;
   width: 100%;
+  padding-bottom: 370px;
 }
 
 .Works-list-wrap {
@@ -149,7 +150,7 @@ Works
   width: 100%;
   margin-bottom: 5%;
   box-shadow: 3px 3px 3px #dcdbdb;
-  border-radius: 5px;
+  border-radius: 15px;
   background-color: #fff;
 }
 
@@ -163,7 +164,7 @@ Works
 }
 
 .Works-list-wrap img {
-  border-radius: 5px;
+  border-radius: 15px;
   width: 100%;
   object-fit: cover;
   transition-duration: 0.7s;
@@ -206,7 +207,6 @@ Works
 /* タブ部分 */
 
 .tab_container {
-  padding-bottom: 1em;
   margin: 0 auto;
   width: 90%;
 }
@@ -221,8 +221,9 @@ Works
   float: left;
   text-align: center;
   font-weight: bold;
+  font-size: 16px;
   transition: all 0.2s ease;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
   letter-spacing: 0.1em;
 }
 
@@ -242,7 +243,7 @@ input[name="tab_item"] {
   display: none;
   padding: 2em 0 0 0;
   clear: both;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .tab_content_description img {
@@ -251,8 +252,8 @@ input[name="tab_item"] {
 
 .Works-list-wrap {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, auto);
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows: repeat(5, auto); */
   gap: 5%;
   max-width: 1050px;
 }
@@ -265,7 +266,7 @@ input[name="tab_item"] {
 .tab_container input:checked + .tab_item {
   background-color: #a6ced1;
   color: #fff;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 @media screen and (max-width: 900px) {
@@ -297,7 +298,7 @@ Works_リンク先
   width: 90%;
   display: block;
   margin: 0 auto;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-bottom: 5%;
   box-shadow: 3px 3px 3px #dcdbdb;
 }
@@ -444,7 +445,7 @@ Skill
 .skill-text-wrap {
   background-color: #fff;
   box-shadow: 4px 4px 7px #dcdbdb;
-  border-radius: 5px;
+  border-radius: 15px;
   text-align: center;
   padding: 10% 7% 10% 7%;
 }
@@ -522,8 +523,8 @@ about
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
-  max-width: 230px;
-  padding: 13px 25px;
+  max-width: 250px;
+  padding: 16px 25px;
   color: #ffffff;
   transition: 0.3s ease-in-out;
   font-weight: 500;
@@ -777,6 +778,7 @@ footer {
 -------------------------------------------*/
   .works {
     width: 90%;
+    padding-bottom: 10%;
   }
 
   h2 {
